@@ -174,6 +174,8 @@ if __name__ == "__main__":
         # Stores the winner in a single game of Tic Tac Toe
         winner = single_game(options[choice-1])
          
+
+
         # Edits the scoreboard according to the winner
         if winner != 'D' :
             player_won = player_choice[winner]
